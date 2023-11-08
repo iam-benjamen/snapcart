@@ -17,18 +17,46 @@ export default function Home() {
       <Head>
         <title>Snapcart</title>
         <meta charSet="UTF-8" />
-        <meta name="description" content="Snapcart enables SMBs support customers and manage orders with an AI assistant" />
+        <meta
+          name="description"
+          content="Snapcart enables SMBs support customers and manage orders with an AI assistant"
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta property="og:type" content="website"/>
-        <meta property="og:title" content="Snapcart: AI powered co-pilot for your business"/>
-        <meta property="og:description" content="Manage orders, messages and customers in one place."/>
-        <meta name="facebook-domain-verification" content="7fdgovrx02wawwt20abifrn28em3os"/>
-        <meta name="twitter:card" content="summary_large_image"/>
-        <meta property="twitter:domain" content="snapcart.store"/>
-        <meta property="twitter:url" content="https://snapcart.store/"/>
-        <meta name="twitter:title" content="Snapcart: AI powered co-pilot for your business"/>
-        <meta name="twitter:description" content="Manage orders, messages and customers in one place."/>
-        <meta name="twitter:image"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Snapcart: AI powered co-pilot for your business"
+        />
+        <meta
+          property="og:description"
+          content="Manage orders, messages and customers in one place."
+        />
+        <meta
+          property="og:image"
+          content="https://res.cloudinary.com/djskbsz2k/image/upload/v1698597618/Open_Graph_tag_spfks9.jpg"
+        />
+        <meta property="og:url" content="https://snapcart.store" />
+        <meta property="og:site_name" content="Snapcart" />
+        <meta
+          name="facebook-domain-verification"
+          content="7fdgovrx02wawwt20abifrn28em3os"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="snapcart.store" />
+        <meta property="twitter:url" content="https://snapcart.store/" />
+        <meta
+          name="twitter:title"
+          content="Snapcart: AI powered co-pilot for your business"
+        />
+        <meta
+          name="twitter:description"
+          content="Manage orders, messages and customers in one place."
+        />
+        <meta
+          name="twitter:image"
+          content="https://res.cloudinary.com/djskbsz2k/image/upload/v1698597618/Open_Graph_tag_spfks9.jpg"
+        />
         <link rel="icon" href="/Logo.svg" />
       </Head>
 
