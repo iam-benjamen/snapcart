@@ -18,20 +18,20 @@ export default function Home() {
       <Head>
         <title>Snapcart</title>
         <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
         <meta
           name="description"
           content="Snapcart enables SMBs support customers and manage orders with an AI assistant"
         />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Snapcart: AI powered co-pilot for your business"
+          content="Snapcart: AI powered co-pilot for shops"
         />
         <meta
           property="og:description"
-          content="Manage orders, messages and customers in one place."
+          content="Snapcart is an AI-powered copilot e-commerce tool for SMBs to support customers, sell online & manage orders. Support customers and manage orders with AI all in one place."
         />
         <meta
           property="og:image"
@@ -48,11 +48,12 @@ export default function Home() {
         <meta property="twitter:url" content="https://snapcart.store/" />
         <meta
           name="twitter:title"
-          content="Snapcart: AI powered co-pilot for your business"
+          content="Snapcart: AI powered co-pilot for shops"
         />
+        
         <meta
           name="twitter:description"
-          content="Manage orders, messages and customers in one place."
+          content="Snapcart is an AI-powered copilot e-commerce tool for SMBs to support customers, sell online & manage orders. Support customers and manage orders with AI all in one place."
         />
         <meta
           name="twitter:image"

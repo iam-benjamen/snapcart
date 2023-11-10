@@ -2,7 +2,7 @@ import { Box } from "@chakra-ui/react";
 import Image, { StaticImageData } from "next/image";
 import Marquee from "react-fast-marquee";
 
-import image1 from "../../public/snapcart new images/Frame.jpg";
+import image1 from "../../public/snapcart new images/Frame.png";
 import image2 from "../../public/snapcart new images/Group 2.svg";
 import image3 from "../../public/snapcart new images/Group 3.svg";
 import image4 from "../../public/snapcart new images/Group 4.svg";
