@@ -8,6 +8,7 @@ import app_store from "../../public/Black.svg";
 import { Box, Text, VStack } from "@chakra-ui/react";
 import { Inter } from "next/font/google";
 import WebCardScroll from "@/components/WebCardScroll";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,7 +23,7 @@ export default function Home() {
           content="Snapcart enables SMBs support customers and manage orders with an AI assistant"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
@@ -34,7 +35,7 @@ export default function Home() {
         />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/djskbsz2k/image/upload/v1698597618/Open_Graph_tag_spfks9.jpg"
+          content="https://res.cloudinary.com/djskbsz2k/image/upload/v1699615005/preview_dnmlkm.png"
         />
         <meta property="og:url" content="https://snapcart.store" />
         <meta property="og:site_name" content="Snapcart" />
@@ -55,7 +56,7 @@ export default function Home() {
         />
         <meta
           name="twitter:image"
-          content="https://res.cloudinary.com/djskbsz2k/image/upload/v1698597618/Open_Graph_tag_spfks9.jpg"
+          content="https://res.cloudinary.com/djskbsz2k/image/upload/v1699615005/preview_dnmlkm.png"
         />
         <link rel="icon" href="/Logo.svg" />
       </Head>
@@ -71,23 +72,62 @@ export default function Home() {
           alignItems={"center"}
         >
           <Box
-            justifyContent={"space-between"}
-            display={"flex"}
             px={{ base: "1rem", md: "2rem", lg: "3.75rem" }}
+            justifyContent={"space-between"}
+            alignItems={"center"}
+            display={"flex"}
             py={"1.3rem"}
             height={"6rem"}
             width={"100%"}
           >
-            <Box display={"flex"} alignItems={"center"} gap={"0.82rem"}>
+            <Box
+              display={"flex"}
+              alignItems={"center"}
+              gap={{ base: "0.5rem", md: "0.82rem" }}
+              as={Link}
+              href={"/"}
+            >
               <Image src={logo} alt="snapcart logo" />
               <Text
                 letterSpacing={"-0.04569rem"}
                 className={inter.className}
                 fontWeight={600}
-                fontSize={"1.4rem"}
+                fontSize={{ base: "1rem", md: "1.4rem" }}
                 color={"white"}
               >
                 Snapcart
+              </Text>
+            </Box>
+
+            <Box display={{ base: "none", md: "flex" }} gap={"5.5rem"}>
+              <Text
+                as={Link}
+                href={"/privacy_policy"}
+                color={"#F8F8F8"}
+                fontSize={"1rem"}
+                className={inter.className}
+              >
+                Privacy Policy
+              </Text>
+              <Text
+                as={Link}
+                href={
+                  "https://sulky-punch-280.notion.site/FAQ-f4426a9ad43f483e8715af6f2180766d?pvs=4"
+                }
+                color={"#F8F8F8"}
+                fontSize={"1rem"}
+                className={inter.className}
+              >
+                FAQ
+              </Text>
+              <Text
+                as={Link}
+                href={"/terms_of_service"}
+                color={"#F8F8F8"}
+                fontSize={"1rem"}
+                className={inter.className}
+              >
+                Terms of Service
               </Text>
             </Box>
 
@@ -96,50 +136,60 @@ export default function Home() {
               alignItems={"center"}
               gap={{ base: "1.2rem", md: "2.4rem" }}
             >
-              <Box cursor={"pointer"}>
+              <Box
+                as={Link}
+                href={"https://twitter.com/snapcarthq"}
+                target="_blank"
+                cursor={"pointer"}
+                w={{ base: "1.5rem", md: "2rem" }}
+              >
                 <Image src={twitter} alt="twitter logo" />
               </Box>
-              <Box w={"2rem"} cursor={"pointer"}>
+
+              <Box
+                display={{ base: "none", md: "block" }}
+                cursor={"pointer"}
+                as={Link}
+                href={
+                  "https://www.instagram.com/snapcarthq?igshid=MWZjMTM2ODFkZg%3D%3D"
+                }
+                target="_blank"
+                w={"2rem"}
+              >
                 <Image src={instagram} alt="instagram logo" />
               </Box>
-              <Text
-                letterSpacing={"-0.04013rem"}
-                className={inter.className}
-                fontSize={"1.28rem"}
-                fontWeight={600}
-                color={"white"}
-                cursor={"pointer"}
-                display={{ base: "none", md: "block" }}
-              >
-                Contact us
-              </Text>
             </Box>
           </Box>
 
           <VStack gap={"1.12rem"} px={"1.2rem"}>
             <Box
-              width={"max-content"}
+              fontSize={{ base: "0.65rem", md: "0.875rem" }}
+              as={Link}
+              href={
+                "https://medium.com/@snapcarthq/introducing-snapcart-simplifying-online-commerce-with-automation-8372a9d05a98"
+              }
+              target="_blank"
+              letterSpacing={"0.02375rem"}
+              className={inter.className}
               borderRadius={"0.825rem"}
               padding={".5rem 1rem"}
+              width={"max-content"}
               background={"#222"}
               fontWeight={500}
               color={"white"}
-              letterSpacing={"0.02375rem"}
-              fontSize={{ base: "0.65rem", md: "0.875rem" }}
-              className={inter.className}
-              mt={"1rem"}
+              mt={{ base: "1.5rem", md: "2rem" }}
             >
               We just launched public beta on mobile! 🎉{" "}
               <span style={{ fontWeight: 600 }}>→</span>
             </Box>
 
             <Text
-              width={{ md: "50rem" }}
               fontSize={{ base: "2.6rem", md: "3.5rem", lg: "4.375rem" }}
-              fontWeight={700}
               letterSpacing={{ base: "-0.06206rem", md: "-0.10281rem" }}
               lineHeight={{ base: "2.79231rem", md: "4.625rem" }}
+              width={{ md: "50rem" }}
               textAlign={"center"}
+              fontWeight={700}
               background={
                 "linear-gradient(119deg, #75FFEE 0%, #A771FF 31.25%, #FC5CFF 57.81%, rgba(255, 71, 71, 0.60) 100%)"
               }
@@ -150,14 +200,14 @@ export default function Home() {
             </Text>
 
             <Text
-              color={"white"}
-              fontSize={{ base: "1rem", md: "1.25rem" }}
-              fontWeight={400}
-              className={inter.className}
               lineHeight={{ base: "1.5rem", md: "1.875rem" }}
-              textAlign={"center"}
+              fontSize={{ base: "1rem", md: "1.25rem" }}
               width={{ base: "19rem", md: "34rem" }}
               letterSpacing={"-0.03125rem"}
+              className={inter.className}
+              textAlign={"center"}
+              fontWeight={400}
+              color={"white"}
             >
               Snapcart enables SMBs support customers and manage orders with an
               AI assistant
@@ -169,7 +219,15 @@ export default function Home() {
             mt={{ base: "1rem", md: "2.5rem" }}
             gap={"1.25rem"}
           >
-            <Box cursor={"pointer"} width={{ base: "7.5rem", md: "11rem" }}>
+            <Box
+              as={Link}
+              href={
+                "https://play.google.com/store/apps/details?id=com.cube.messaging"
+              }
+              target="_blank"
+              cursor={"pointer"}
+              width={{ base: "7.5rem", md: "11rem" }}
+            >
               <Image src={google_play} alt="google play" />
             </Box>
             <Box cursor={"pointer"} width={{ base: "7.5rem", md: "11rem" }}>
