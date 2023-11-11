@@ -31,11 +31,11 @@ export default function Home() {
         />
         <meta
           property="og:description"
-          content="Snapcart is an AI-powered copilot e-commerce tool for SMBs to support customers, sell online & manage orders. Support customers and manage orders with AI all in one place."
+          content="Snapcart is an AI-powered copilot e-commerce tool for SMBs to support customers, sell online & manage orders."
         />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/djskbsz2k/image/upload/v1699615005/preview_dnmlkm.png"
+          content="https://res.cloudinary.com/dyzm7pncn/image/upload/v1699691731/preview_image_yvgmhr.png"
         />
         <meta property="og:url" content="https://snapcart.store" />
         <meta property="og:site_name" content="Snapcart" />
@@ -50,14 +50,14 @@ export default function Home() {
           name="twitter:title"
           content="Snapcart: AI powered co-pilot for shops"
         />
-        
+
         <meta
           name="twitter:description"
-          content="Snapcart is an AI-powered copilot e-commerce tool for SMBs to support customers, sell online & manage orders. Support customers and manage orders with AI all in one place."
+          content="Snapcart is an AI-powered copilot e-commerce tool for SMBs to support customers, sell online & manage orders."
         />
         <meta
           name="twitter:image"
-          content="https://res.cloudinary.com/djskbsz2k/image/upload/v1699615005/preview_dnmlkm.png"
+          content="https://res.cloudinary.com/dyzm7pncn/image/upload/v1699691731/preview_image_yvgmhr.png"
         />
         <link rel="icon" href="/Logo.svg" />
       </Head>
