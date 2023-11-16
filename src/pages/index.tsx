@@ -210,12 +210,12 @@ export default function Home() {
               fontWeight={400}
               color={"white"}
             >
-              Snapcart enables SMBs support customers and manage orders with an
-              AI assistant
+              Connect your shop to Snapcart, Use a customized AI sales agent to
+              support customers
             </Text>
           </VStack>
 
-          <Box
+          {/* <Box
             display={"flex"}
             mt={{ base: "1rem", md: "2.5rem" }}
             gap={"1.25rem"}
@@ -234,7 +234,7 @@ export default function Home() {
             <Box cursor={"pointer"} width={{ base: "7.5rem", md: "11rem" }}>
               <Image src={app_store} alt="Apple Store" />
             </Box>
-          </Box>
+          </Box> */}
 
           <WebCardScroll />
         </Box>
