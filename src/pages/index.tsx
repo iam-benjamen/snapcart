@@ -215,26 +215,30 @@ export default function Home() {
             </Text>
           </VStack>
 
-          {/* <Box
+          <Box
             display={"flex"}
             mt={{ base: "1rem", md: "2.5rem" }}
             gap={"1.25rem"}
           >
             <Box
               as={Link}
-              href={
-                "https://play.google.com/store/apps/details?id=com.cube.messaging"
-              }
+              href={"https://forms.gle/5wLZxNkhPVCQxPmf6"}
               target="_blank"
               cursor={"pointer"}
               width={{ base: "7.5rem", md: "11rem" }}
             >
               <Image src={google_play} alt="google play" />
             </Box>
-            <Box cursor={"pointer"} width={{ base: "7.5rem", md: "11rem" }}>
+            <Box
+              as={Link}
+              target="_blank"
+              href={"https://forms.gle/5wLZxNkhPVCQxPmf6"}
+              cursor={"pointer"}
+              width={{ base: "7.5rem", md: "11rem" }}
+            >
               <Image src={app_store} alt="Apple Store" />
             </Box>
-          </Box> */}
+          </Box>
 
           <WebCardScroll />
         </Box>
