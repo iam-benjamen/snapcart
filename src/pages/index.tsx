@@ -1,67 +1,22 @@
-import Head from "next/head";
+
 import Image from "next/image";
 import logo from "../../public/Logo.svg";
 import twitter from "../../public/bx_bxl-twitter.svg";
 import instagram from "../../public/bx_bxl-instagram-alt.svg";
 import google_play from "../../public/Black-play.svg";
 import app_store from "../../public/Black.svg";
+import WebCardScroll from "@/components/WebCardScroll";
+import MetaTags from "@/components/MetaTags";
+import Link from "next/link";
 import { Box, Text, VStack } from "@chakra-ui/react";
 import { Inter } from "next/font/google";
-import WebCardScroll from "@/components/WebCardScroll";
-import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Snapcart</title>
-        <meta charSet="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
-        <meta
-          name="description"
-          content="Snapcart enables SMBs support customers and manage orders with an AI assistant"
-        />
-        <meta property="og:type" content="website" />
-        <meta
-          property="og:title"
-          content="Snapcart: AI powered co-pilot for shops"
-        />
-        <meta
-          property="og:description"
-          content="Snapcart is an AI-powered copilot e-commerce tool for SMBs to support customers, sell online & manage orders."
-        />
-        <meta
-          property="og:image"
-          content="https://res.cloudinary.com/dyzm7pncn/image/upload/v1699691731/preview_image_yvgmhr.png"
-        />
-        <meta property="og:url" content="https://snapcart.store" />
-        <meta property="og:site_name" content="Snapcart" />
-        <meta
-          name="facebook-domain-verification"
-          content="7fdgovrx02wawwt20abifrn28em3os"
-        />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta property="twitter:domain" content="snapcart.store" />
-        <meta property="twitter:url" content="https://snapcart.store/" />
-        <meta
-          name="twitter:title"
-          content="Snapcart: AI powered co-pilot for shops"
-        />
-
-        <meta
-          name="twitter:description"
-          content="Snapcart is an AI-powered copilot e-commerce tool for SMBs to support customers, sell online & manage orders."
-        />
-        <meta
-          name="twitter:image"
-          content="https://res.cloudinary.com/dyzm7pncn/image/upload/v1699691731/preview_image_yvgmhr.png"
-        />
-        <link rel="icon" href="/Logo.svg" />
-      </Head>
-
+      <MetaTags />
       <main
         style={{ width: "100vw", minHeight: "100vh", background: "#131313" }}
       >
