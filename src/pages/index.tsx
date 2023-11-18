@@ -222,17 +222,22 @@ export default function Home() {
           >
             <Box
               as={Link}
-              href={"https://forms.gle/5wLZxNkhPVCQxPmf6"}
+              href={
+                "https://play.google.com/store/apps/details?id=com.cube.messaging"
+              }
               target="_blank"
               cursor={"pointer"}
               width={{ base: "7.5rem", md: "11rem" }}
             >
               <Image src={google_play} alt="google play" />
             </Box>
+
             <Box
               as={Link}
               target="_blank"
-              href={"https://forms.gle/5wLZxNkhPVCQxPmf6"}
+              href={
+                "https://apps.apple.com/ng/app/snapcart-your-shop-assistant/id6467751729"
+              }
               cursor={"pointer"}
               width={{ base: "7.5rem", md: "11rem" }}
             >
