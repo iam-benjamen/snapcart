@@ -152,7 +152,7 @@ export default function Home() {
               backgroundClip={"text"}
               fontFamily={"Poppins"}
             >
-              Organize Orders from everywhere.
+              Powering shops everywhere
             </Text>
 
             <Text
@@ -165,8 +165,8 @@ export default function Home() {
               fontWeight={400}
               color={"white"}
             >
-              The only solution that combines a free order store, inventory
-              management and messaging.
+              A suite of tools for shops to manage inventory,
+              orders and messaging.
             </Text>
           </VStack>
 
