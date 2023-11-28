@@ -152,7 +152,7 @@ export default function Home() {
               backgroundClip={"text"}
               fontFamily={"Poppins"}
             >
-              AI-powered copilot for your shop
+              Organize Orders from everywhere.
             </Text>
 
             <Text
@@ -165,8 +165,8 @@ export default function Home() {
               fontWeight={400}
               color={"white"}
             >
-              Connect your shop to Snapcart, Use a customized AI sales agent to
-              support customers
+              The only solution that combines a free order store, inventory
+              management and messaging.
             </Text>
           </VStack>
 
