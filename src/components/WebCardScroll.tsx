@@ -22,11 +22,11 @@ const WebCardScroll = () => {
   return (
     <Marquee autoFill speed={50}>
       <Box
+        my={{ base: "3rem", md: "4rem" }}
         justifyContent={"space-between"}
         alignItems={"center"}
         display={"flex"}
         width={"100%"}
-        my={{ base: "3rem", md: "4rem" }}
         pl={"2rem"}
       >
         {images.map((logo, index) => (
